@@ -11,7 +11,7 @@ exports.noregis = (pushname) =>{
 	return` 🙅‍♀️ Halo ${pushname} lu belum daftar. Ketik .daftar dulu`
 	}
 exports.regis = () =>{
-	return` Lu udah daftar goblok 🖕`
+	return` Lu udah daftar dri 2Tahun Yang Lalu`
 	}
 exports.daftar = (sender, pushname, time, serialUser, totalUser) =>{
 	return` *PENDAFTARAN BERHASIL*
@@ -26,10 +26,10 @@ fitur bot.
 `
 	}
 exports.owner = (botname) =>{
-	return` 🙅‍♀️ Command khusus owner ${botname}`
+	return`Cuma Owner Yg Bisa Make Fitur Ini ${botname}`
 	}
 exports.admin = (groupName) =>{
-	return`🙅‍♀️ Command khusus admin ${groupName}`
+	return`Hanya Admin Yg Bisa Pake Fiturnya ${groupName}`
 	}
 exports.adminB = () =>{
 	return`⚠️ Bot bukan admin grup`
@@ -42,24 +42,24 @@ exports.group = () =>{
 	}
 
 exports.wait = () =>{
-	return`⏳ Sedang di proses ~`
+	return`Wet....`
 	}
 exports.ok = () =>{
-	return` ✅ Oke done ~`
+	return` Dah Banh ~`
 	}
 exports.welcome = () =>{
 	return`
-Welcome semoga gak betah terus out yah !`
+Welcome semoga rezekinya lancar (klo masih di gc ni) `
       }
 exports.leave = () =>{
 	return`
-Beban group keluar, Bye cuih`
+Rezekinya Dh Mati:v Dada Beban`
 }
 exports.menu = (prefix, salam, pushname) =>{
 	return`Hi ${pushname}, selamat ${salam}
 
 ╭─⬣ 
-├ (📌) *List Menu Elaina-Bot*
+├ (📌) *List Menu X1Botz*
 │ • ${prefix}menu
 │ • ${prefix}help
 │
@@ -542,6 +542,7 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • Zeeoneofc
 │ • Yoga
 │ • Riy-Uhuy
+│ • My Owner
 │ • Faiz
 │ • Lexxy
 ╰─⬣
@@ -553,19 +554,19 @@ exports.sewabot = (prefix, salam, pushname) =>{
 ╭─⬣
 ├ *Price List*
 │ • Sewa 5k/minggu
-│ • Sewa 10k/bln
-│ • Sewa Permanen 25k
+│ • Sewa 9k/bln
+│ • Sewa Permanen 15k
 │
 ├ *Price List*
-│ • Jadi Bot 30k/bln
-│ • Jadi Bot + Owner 35k
+│ • Jadi Bot 17k/bln
+│ • Jadi Bot + Owner 19k
 │ • Buat Beli Apikey!
 │
 ├ *Minat? Chat*
 │• Sering² Donasi
-│• wa.me/6281575886399
-│• Instagram : @riychh
-│• YouTube : RIYCH OFC
+│• wa.me/6289667644225
+│• Instagram : @dnx_official9
+│• YouTube : DnX Official
 ╰─⬣
 `
 }
