@@ -1,7 +1,7 @@
 {
-  "name": "Riychbot",
+  "name": "X1Botz",
   "version": "4.0.0",
-  "description": "By Riych-Uhuy",
+  "description": "Kowe Ashu",
   "main": "riych.js",
   "directories": {
     "lib": "lib"
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node riych.js"
   },
-  "author": "Riych",
+  "author": "InzGanz",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.3", 
     "awesome-phonenumber": "^2.64.0",
