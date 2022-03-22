@@ -1218,13 +1218,14 @@ case 'leave':
 			haruka.groupLeave(from) 
 			}, 2000)
 			setTimeout( () => {
-			haruka.sendMessage(from, 'Sayonara👋', text)
+			haruka.sendMessage(from, 'Dada👋', text)
 			}, 0)
 			break
 case 'hidetag':
 if (!isRiych) return sendButMessage(from, lang.noregis(pushname), `Klik Button Untuk Verify`, [{buttonId: '.daftar',buttonText: {displayText: `Daftar`,},type: 1,}], {quoted: fgif});
 			if (!isGroup) return reply(lang.group())
 			if (!isGroupAdmins) return reply(lang.admin(groupName))
+			if (!isOwner) return reply(lang.owner(botname))
 			var value = q
 			var group = await haruka.groupMetadata(from)
 			var member = group['participants']
@@ -1249,6 +1250,7 @@ if (!isRiych) return sendButMessage(from, lang.noregis(pushname), `Klik Button U
 case 'tagall':
 if (!isRiych) return sendButMessage(from, lang.noregis(pushname), `Klik Button Untuk Verify`, [{buttonId: '.daftar',buttonText: {displayText: `Daftar`,},type: 1,}], {quoted: fgif});
 			if (!isGroup) return reply(lang.group())
+                        if (!isOwner) return reply(lang.owner(botname))
 			if (!isGroupAdmins) return reply(lang.admin(groupName))
 			members_id = []
 			taga = (args.length > 1) ? body.slice(8).trim() : ''
